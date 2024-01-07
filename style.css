@@ -111,11 +111,76 @@ main{
 /* ====================gallary section start=================== */
 
 
+.gallary .gallary-box{
+ padding:5% 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-between;
+ align-items: center;
 
-
-
-
-
+}
+.gallary .gallary-text{
+    padding:5% 0 2%;
+}
+.gallary-text h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.gallary .gallary-box img{
+    margin-bottom: 50px;
+    border-radius: 15px;
+    width: 420px;
+    height: 420px;
+    box-shadow: 2px 2px 5px black;
+}
+.gallary .gallary-box img:hover{
+    border:2px solid #0000;
+    border-radius: 15px;
+}
+/* =======================Newsletter form design===================== */
+.newletter{
+    background-color: #FFF2F2;
+    height: 60vh;
+    margin: 5% 0;
+    border-radius: 10px;
+    padding:4% 20%;
+}
+.newletter .subscribe{
+    text-align: center;
+}
+.newletter .subscribe h1{
+    color:#000;
+    font-size: 40px;
+}
+.newletter .subscribe img{
+    width: 100px;
+    height: 100px;
+}
+.newletter form{
+    margin:30px 0;
+    display: flex;
+    align-items: center;
+    padding:0 15%;
+}
+form input[type="email"]{
+    padding:12px 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px; 
+    font-size: 20px;
+}
+form input[type="submit"]{
+    outline: none;
+    border:none;
+    padding:12px 20px;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 
 
 
@@ -153,9 +218,7 @@ footer{
     height: 50px;
     margin: 10px;
     border-radius: 50%;
-   
 }
-
 .footer-box .down-box{
     display: flex;
     justify-content: space-between;
