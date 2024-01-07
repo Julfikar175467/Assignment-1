@@ -1,0 +1,110 @@
+/* ==============basic setup start======================= */
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+h2{
+    color:#fff;
+
+    
+}
+hr{
+    background: rgba(255, 255, 255, 0.089);
+}
+p{
+    line-height: 25px;
+}
+span{
+    color:#FF0000;
+}
+
+/* =====================basic setup end ============== */
+header{
+    width: 100%;
+    padding:2% 10%;
+}
+.banner{
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.5),rgba(27, 23, 23, 0.274)), url("resources/Banner\ Image.png");
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.banner .banner-text{
+   padding-top: 15%;
+}
+
+
+
+
+
+
+/* ====================main part start====================== */
+main{
+    width: 100%;
+    padding:0 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================footer start================== */
+footer{
+    background-color: #070211;
+    width:100%;
+    padding:0 10%;
+    color:#fff;
+}
+.footer-box .text-box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4% 0 1%;
+}
+.footer-box .text-box .icon-box{
+    display: flex;
+    margin:15px 0;
+}
+.footer-box .text-box .icon-box img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.footer-box .social-box{
+    text-align: center;
+    padding:2% 0;
+}
+.footer-box .social-box img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+   
+}
+
+.footer-box .down-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 4%;
+}
