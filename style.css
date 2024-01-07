@@ -73,7 +73,7 @@ main{
     padding: 2% 0 5%;
 }
 .new-year .text-box-year{
-    padding:3% 0;
+    padding:1% 0;
 }
 .new-year .text-box h2{
     color:black;
@@ -181,12 +181,6 @@ form input[type="submit"]{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-
-
-
-
-
-
 /* ==================footer start================== */
 footer{
     background-color: #070211;
