@@ -108,8 +108,81 @@ main{
 .welcome p{
     margin-bottom:50px;
 }
-/* ====================gallary section start=================== */
+/* ==================================bonus section design start=========================== */
+.bonus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bonus .bonus-col-img{
+    padding:10%;
+}
+.bonus-col-img-text p{
+    margin-bottom:30px ;
+}
+.bonus-col-img img{
+    padding:20px;
+    border:8px solid #FF0000;
+    border-radius: 50%;
+}
+.bonus-col-text h2{
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.bonus-col-img img:hover{
+    box-shadow: 2px 2px 1px rgb(15, 15, 15),-2px -2px 1px rgb(15, 15, 15);
+}
+/* ========================holiday section design==================== */
+.holiday{
+ width:100%;
+}
+.holiday .text-box{
+    text-align: center;
+    margin: 20px 15%;
 
+}
+.text-box h1{
+    color:#000;
+}
+.holiday .holiday-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:contain;
+    width: 100%;
+   margin: 7% 0;
+}
+.holiday-img-box .col-2{
+    display: flex;
+    margin-top:-290px ;
+}
+.col-2 .discount{
+    margin-right: -120px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+.holiday-img-box{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================gallary section start=================== */
 
 .gallary .gallary-box{
  padding:5% 0;
